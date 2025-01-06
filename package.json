@@ -1,0 +1,16 @@
+{
+  "name": "aws-load-balanced-nodejs",
+  "version": "1.0.0",
+  "description": "## The application with launch template",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tanmoy Basak Anjan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
