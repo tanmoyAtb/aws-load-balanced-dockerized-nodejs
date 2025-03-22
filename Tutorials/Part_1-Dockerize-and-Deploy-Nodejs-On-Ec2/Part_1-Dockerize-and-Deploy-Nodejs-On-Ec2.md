@@ -108,7 +108,7 @@ This should run your dockerized application now. Visit `https://localhost:8000` 
 
 ## Deploy Dockerized app in AWS EC2
 
-### Create an ERC repository for our app
+### Create an ECR repository for our app
 
 Now that our docker image is ready and we have tested that it works, we will now host the image in AWS ECR. AWS ECR or Elastic container service is a service where you can host docker images.
 
