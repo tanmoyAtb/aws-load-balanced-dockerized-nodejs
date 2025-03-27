@@ -140,7 +140,7 @@ aws ssm get-parameters-by-path \
     | tee /home/ubuntu/.env
 
 # Stop existing container
-docker ps -q --filter "ancestor=$AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/$APP_NAME:$IMAGE_TAG" | xargs -r docker stop
+docker stop $(docker ps -q)
 
 # Remove unused containers and images (optional)
 docker system prune -f
